@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Fredericka+the+Great&family=Rock+Salt&display=swap" rel="stylesheet">
+    <!--link to CSS-->
+    <link rel="stylesheet" href="CSS/homepagestyles.css">
+      <!--hamburger menu-->
+      <label id="hamburger">
+        <i class="fa-solid fa-bars"></i>
+    </label>
+    
+</head>
+<body>
+    <!--title place-->
+    <header>
+        <img class="logo" src="images/logo.jpg" alt="logo">
+        <nav class="nav-links">
+            <ul>
+                <!--the # needs to be the link of websites, we can link it later-->
+                <li><a href="homepage.html">Home Page</a></li>
+                <li><a href="aboutme page.html">About me</a>
+                    <ul class="drop-down">
+                        <li><a href="My interest&hobbies page.html"> My Interests and Hobbies</a></li>
+                        <li><a href="Myworksandskills.html">My Works and Skills</a></li>
+                    </ul>
+                
+                </li>
+    
+            </ul>
+        </nav>
+        <!--the button link to the contact page-->
+        <a href="contact page .html">
+            <button>Contacts</button>
+        </a>
+
+    </header>
+
+
+    <!--main part-->
+   <div class="main-page">
+    <div class="right_section">
+        <h1 class="greeting" contenteditable>
+            Hi! My name is <span class="name">Lele Huang</span>!
+            Welcome to my personal website!
+        </h1>
+        <!--the button link to about me page-->
+       <a class="enter" href="aboutme page.html">
+        Get Start
+       </a>
+
+    </div>
+
+    <div class="left_section">
+        <!--input the background sliding picture-->
+        <marquee behavior="scroll" direction="left">
+            <img src="images/photograph01.jpg" width="600" height="800" alt="homepage01">
+            <img src="images/photograph04.jpg" width="600" height="800" alt="homepage03">
+            <img src="images/photograph05.jpg" width="800" height="800" alt="homepage02">
+            <img src="images/travel02.jpg" width="800" height="800" alt="homepage04">
+        </marquee>
+
+    </div>
+
+   </div>
+    
+</body>
+</html>
