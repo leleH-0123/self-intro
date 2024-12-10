@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <!---link to font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Fredericka+the+Great&family=Rock+Salt&display=swap" rel="stylesheet">
+    <!--link to CSS-->
+    <link rel="stylesheet" href="CSS/contactstyles.css">
+    <!--link to icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--title place-->
+     <header>
+        <img class="logo" src="images/logo.jpg" alt="logo">
+        <nav class="nav-links">
+            <ul>
+                <!--the # needs to be the link of websites, we can link it later-->
+                <li><a href="homepage.html">Home Page</a></li>
+                <li><a href="aboutme page.html">About me</a>
+                    <ul class="drop-down">
+                        <li><a href="My interest&hobbies page.html"> My Interests and Hobbies</a></li>
+                        <li><a href="Myworksandskills.html">My Works and Skills</a></li>
+                    </ul>
+                
+                </li>
+    
+            </ul>
+        </nav>
+        <!--the button link to the contact page-->
+        <a href="contact page .html">
+            <button>Contacts</button>
+        </a>
+
+    </header>
+
+    <!--feedback form-->
+    <div class="feedback-form">
+        <h2 class="feedback-title">
+            Thanks for visiting my portfolio site! 
+            <br>
+            I'd love to hear from you.</h2>
+        <form action="/submit" method="get">
+            <label for="'Full Name">
+                Your name:
+            </label>
+
+            <input type="text" id="'Full Name" placeholder="Enter your Full Name." required>
+            <label for="email">
+                Email Address:
+            </label>
+            <input type="email" id="email" placeholder="Enter your email address."required>
+
+
+            <label for="comment">
+                Comments:
+            </label>
+            <textarea row="10" cols="40" placeholder="Enter your additional feedback."></textarea>
+            
+            <button type="submit">
+                Submit
+            </button>
+        </form>
+    </div>
+    <!--contact me form-->
+    <div class="contact-form">
+        <h2 class="contact-title">
+            Contact me
+        </h2>
+        <div class="section2">
+
+            <!--email address-->
+            <div class="box">
+                <div class="icons">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <h3>
+                    shanshan20030123@outlook.com
+                </h3>
+            </div>
+
+            <!--telephone number-->
+            <div class="box">
+                <div class="icons">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <h3>
+                   1101203440
+                </h3>
+                
+            </div>
+
+            <!--instagram-->
+            <div class="box">
+                <a href="https://www.instagram.com/lele_33huang?igsh=d3E4d21seHg2OW4%3D&utm_source=qr">
+                <div class="icons">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <h3>
+                   Instagram
+                </h3>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

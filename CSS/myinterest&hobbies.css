@@ -1,0 +1,113 @@
+/*title part*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e07d45;
+}
+
+.nav-links li a {
+    text-decoration: none ;
+    font-size: 16px;
+    font-family:Fredericka the Great ;
+    color: #f2e5d3;
+    display: block;
+    position: relative;
+}
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    position: relative;
+}
+.logo{
+    width: 100px;
+}
+
+.drop-down{
+    position:absolute;
+    background-color: #e07d45;
+    width: 200px;
+    padding: 1.5em 0.5em;
+    text-align: center;
+    display: none;
+}
+/*let the elements show out*/
+ul li:hover ul.drop-down{
+    display: block;
+}
+
+
+.nav-links li a:hover{
+    color:#A96255;
+}
+
+
+.drop-down li a:hover{
+    background-color: darkorange;
+    color: bisque;
+    padding:10px
+}
+
+/*contact button*/
+
+button{
+    border: none;
+    font-size: 20px;
+    padding: 20px 30px;
+    background-color:#F2E5D3;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family:Fredericka the Great ;
+
+}
+
+button:hover{
+    background-color: rgb(247, 104, 76);
+    color: bisque;
+    transition: all 0.3s ease 0s;
+}
+
+/*section01*/
+
+
+div.gallery{
+    border:1px solid #A96255;
+}
+div.gallery:hover{
+    border:1px solid #6F927F;
+}
+div.gallery img{
+    width:30%;
+    height:auto;
+}
+div.desc{
+    padding:15px;
+    text-align: center;
+    font-family:EB Garamond;
+}
+
+main{
+    background-color: #F2E5D3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.responsive{
+    padding:0 6px;
+
+    width:25%;
+}
+
+
+.clearfix:after{
+    content:"";
+    display: table;
+    clear:both;
+}

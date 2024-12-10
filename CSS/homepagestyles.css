@@ -1,0 +1,122 @@
+/*title part*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e07d45;
+
+}
+
+.nav-links li a {
+    text-decoration: none ;
+    font-size: 16px;
+    font-family:Fredericka the Great ;
+    color: #f2e5d3;
+    display: block;
+    position: relative;
+}
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    position: relative;
+}
+.logo{
+    width: 100px;
+}
+
+.drop-down{
+    position:absolute;
+    background-color: #e07d45;
+    width: 200px;
+    padding: 1.5em 0.5em;
+    text-align: center;
+    display: none;
+}
+/*let the elements show out*/
+ul li:hover ul.drop-down{
+    display: block;
+}
+
+
+.nav-links li a:hover{
+    color:#A96255;
+}
+
+.drop-down li a:hover{
+    background-color: darkorange;
+    color: bisque;
+    padding:10px;
+}
+
+button{
+    border: none;
+    font-size: 20px;
+    padding: 20px 20px;
+    background-color:#F2E5D3;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family:Fredericka the Great ;
+    line-height: 12px;
+    
+
+}
+
+button:hover{
+    background-color: rgb(247, 104, 76);
+    color: bisque;
+    margin: 0px;
+    transition: all 0.3s ease 0s;
+}
+
+
+/*greeting part*/
+.main-page{
+    display: grid;
+    grid-template-columns: minmax(200px,40%) 1fr;
+    font-family: Rock Salt;
+    background-color: #f7ecdd;
+    background-size: cover;
+    padding-top:120px;
+    padding-bottom: 100px;
+}
+/*enter button*/
+.enter{
+    text-decoration: none;
+    padding: 0.5rem;
+    background-color:#6F927F;
+    color: #F2E5D3;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    font-size:25px;
+    margin-top: 20px;
+    font-family:Fredericka the Great;
+
+}
+.enter:hover{
+    background-color: #B0522A;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.greeting{
+    padding-left: 40px;
+    
+}
+span.name{
+    color: #BD764C;
+    font-family: Rock Salt;
+    font-size: 100px;
+}
+
+/*hamburger*/
+#hamburger{
+    align-items: 100px;
+    font-size: 20px;
+    margin-right:20px;
+    padding-top: 5px;
+    cursor: pointer;
+    display: none;
+}

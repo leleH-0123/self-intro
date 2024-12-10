@@ -1,0 +1,173 @@
+/*title part*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e07d45;
+}
+
+.nav-links li a {
+    text-decoration: none ;
+    font-size: 16px;
+    font-family:Fredericka the Great ;
+    color: #f2e5d3;
+    position:relative;
+    display: block;
+}
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    position: relative;
+}
+.logo{
+    width: 100px;
+}
+
+.drop-down{
+    position:absolute;
+    background-color: #e07d45;
+    width: 200px;
+    padding: 1.5em 0.5em;
+    text-align: center;
+    display: none;
+}
+/*let the elements show out*/
+ul li:hover ul.drop-down{
+    display: block;
+}
+
+
+.nav-links li a:hover{
+    color:#A96255;
+}
+
+
+.drop-down li a:hover{
+    background-color: darkorange;
+    color: bisque;
+   
+}
+
+/*contact button*/
+button{
+    border: none;
+    font-size: 20px;
+    padding: 20px 20px;
+    background-color:#F2E5D3;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family:Fredericka the Great ;
+    line-height: 12px;
+
+}
+
+button:hover{
+    background-color: rgb(247, 104, 76);
+    color: bisque;
+    margin: 0px;
+    transition: all 0.3s ease 0s;
+}
+
+
+
+/*feedback form*/
+.feedback-form{
+    margin:15%;
+    font-family:EB Garamond ;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.feedback-form h2{
+    align-items: center;
+}
+
+
+label{
+    display: block;
+    font-size:16px;
+    margin:10px 0;
+    font-family:EB Garamond ;
+}
+
+
+input,textarea{
+    width:100%;
+    padding:10px;
+    font-size:14px;
+    border:5px solid #6F927F;
+    background-color: #F2E5D3;
+    border-radius: 10px;
+    font-family:EB Garamond ;
+}
+
+textarea{
+    width: 100%;
+    height:200px;
+
+}
+
+button{
+    border: none;
+    font-size: 20px;
+    padding: 20px 30px;
+    background-color:#F2E5D3;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family:Fredericka the Great ;
+
+}
+
+button:hover{
+    background-color: rgb(247, 104, 76);
+    color: bisque;
+    padding: 20px;
+    transition: all 0.3s ease 0s;
+}
+
+input:focus, textarea focus{
+    border: 5px solid rgb(246, 93, 33);
+}
+
+
+/*contact information*/
+h2{
+    font-family: Rock Salt;
+    font-size: 30px;
+    color: #A96255;
+    text-align: center;
+}
+.contact-form{
+    box-sizing: border-box;
+    background: color #b0522a;
+    background-color: antiquewhite;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+    padding-bottom: 60px;
+}
+.contact-title{
+    align-items: center;
+}
+.box{
+    display: inline-block;
+    width:30%;
+    text-align: center;
+    margin-left: 20px;
+    height:50px;
+    text-decoration: none;
+}
+h3{
+    margin-bottom:20px ;
+    color: #e07d45 ;
+    text-decoration: none;
+    
+}
+.icons{
+    font-size: 50px;
+    margin-bottom: 10px;
+    color:#e07d45;
+}
+
+/*responsive design*/

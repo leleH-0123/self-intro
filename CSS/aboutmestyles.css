@@ -1,0 +1,163 @@
+/*title part*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e07d45;
+
+}
+
+.nav-links li a {
+    text-decoration: none ;
+    font-size: 16px;
+    font-family:Fredericka the Great ;
+    color: #f2e5d3;
+    display: block;
+    position: sticky;
+}
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    position: relative;
+}
+.logo{
+    width: 100px;
+}
+
+.drop-down{
+    position:absolute;
+    background-color: #e07d45;
+    width: 200px;
+    padding: 1.5em 0.5em;
+    text-align: center;
+    display: none;
+}
+/*let the elements show out*/
+ul li:hover ul.drop-down{
+    display: block;
+}
+
+
+.nav-links li a:hover{
+    color:#A96255;
+}
+
+.drop-down li a:hover{
+    background-color: darkorange;
+    color: bisque;
+    padding:10px
+}
+
+button{
+    border: none;
+    font-size: 20px;
+    padding: 20px 30px;
+    background-color:#F2E5D3;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family:Fredericka the Great ;
+    line-height: 12px;
+    
+
+}
+
+button:hover{
+    background-color: rgb(247, 104, 76);
+    color: bisque;
+    margin: 0px;
+    
+    transition: all 0.3s ease 0s;
+}
+
+
+/*section01*/
+*{
+    box-sizing: border-box;
+}
+
+.wholepage{
+    background-color:#f6efe4 ;
+}
+.box{
+    float:left;
+    width:50%;  
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 100px;
+  
+}
+
+.clearfix::after{
+    content: "";
+    clear:both;
+    display: table;
+}
+
+h1{
+    font-family:Rock Salt;
+    text-align: center;
+    background-color:#f6efe4 ;
+    margin-top: 0%;
+    border:2px solid #A96255;
+    border-radius: 20px;
+    
+
+}
+
+h1:hover{
+    box-shadow: 20px 20px 30px 2px #A96255;
+}
+
+h2{
+    font-family:Rock Salt;
+    font-style: italic;
+    font-size: 20px;
+   
+}
+a{
+    text-decoration:none ;
+    color: inherit;
+}
+span.birthday{
+    font-family:EB Garamond ;
+    font-size: 20px;
+    margin:0;
+}
+
+p{
+    font-family:EB Garamond ;
+    font-size: 20px;
+   
+}
+h2,p{
+    margin-left: -110px;
+    
+}
+.pic01,.pic02{
+    float: left;
+    margin-left: 80px;
+    align-items:flex-end;
+ 
+}
+
+.interestsandhobbies{
+    text-decoration: none;
+    list-style: none;
+    margin:10px 0;
+}
+
+.worksandskills{
+    text-decoration: none;
+    list-style:none;
+    margin:10px 0;
+}
+.interestsandhobbies:hover{
+    text-decoration: underline;
+    padding-inline-start: 2px ;
+}
+
+.worksandskills:hover{
+    text-decoration: underline;
+    padding-inline-start: 2px ;
+}
